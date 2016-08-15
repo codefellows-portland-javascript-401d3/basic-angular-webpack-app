@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'source sans pro', helvetica, arial, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background : #99cc00;
+}
+
+main {
+  width: 60%;
+  margin: 10vh auto 0 auto;
+
+}
+
+.madInput, .madOutput {
+  margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+input {
+  width: 45%;
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: #000;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+input:nth-child(odd) {
+  margin-left: 8%;
+}
+
+::-webkit-input-placeholder {
+  color: #666;
+}
+
+:-moz-input-placeholder {
+  color: #666;
+}
