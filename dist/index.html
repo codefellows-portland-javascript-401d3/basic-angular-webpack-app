@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Kate's Greeting</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
   </head>
   <body ng-controller="main">
     <main>
       <h1>Pirate Libs</h1>
-      <div class="madInput">
+      <section class="madInput">
         <h3>Your Input</h3>
         <input name="noun1" ng-model="noun1" placeholder="noun">
         <input name="adjective1" ng-model="adjective1" placeholder="adjective">
@@ -25,14 +26,14 @@
         <input name="noun6" ng-model="noun6" placeholder="noun">
         <input name="noun7" ng-model="noun7" placeholder="noun">
         <input name="bodyParts2" ng-model="bodyParts2" placeholder="body part">
-      </div>
+      </section>
 
-      <div class="madOutput">
+      <section class="madOutput">
         <h3>Your Results</h3>
-        <p>Ye can always pretend to be a bloodthirsty {{noun1}}, threatening everyone by waving yer {{adjective1}} {{noun2}} in the air, but until ye learn to {{verb1}} like a pirate ye'll never be {{adverb1}} accepted as an authentic {{noun3}}.</p>
-        <p>So here's what ye do : Cleverly work into your daily conversations {{adjective2}} pirate phrases such as "Ahoy there, {{pluralNoun1}}", "Avast, ye {{pluralNoun2}}", and "Shiver me {{pluralNoun3}}". Remember to drop all yer g's when ye say such words as sailin', spittin', and fightin'. This will give ye a/an {{bodyPart1}} start to be recognized as a swashbucklin' {{noun4}}.</p>
-        <p>Once ye have the lingo down pat, it helps to wear a three-cornered {{noun5}} on yer head, stash a/an {{noun6}} in yer pants, and keep a/an {{noun7}} perched atop yer {{bodyPart2}}. Aye, now ye be a real pirate!</p>
-      </div>
+        <p>Ye can always pretend to be a bloodthirsty <strong>{{noun1}}</strong>, threatening everyone by waving yer <strong>{{adjective1}}</strong> <strong>{{noun2}}</strong> in the air, but until ye learn to <strong>{{verb1}}</strong> like a pirate ye'll never be <strong>{{adverb1}}</strong> accepted as an authentic <strong>{{noun3}}</strong>.</p>
+        <p>So here's what ye do : Cleverly work into your daily conversations <strong>{{adjective2}}</strong> pirate phrases such as "Ahoy there, <strong>{{pluralNoun1}}</strong>", "Avast, ye <strong>{{pluralNoun2}}</strong>", and "Shiver me <strong>{{pluralNoun3}}</strong>". Remember to drop all yer g's when ye say such words as sailin', spittin', and fightin'. This will give ye a/an <strong>{{bodyPart1}}</strong> start to be recognized as a swashbucklin' <strong>{{noun4}}</strong>.</p>
+        <p>Once ye have the lingo down pat, it helps to wear a three-cornered <strong>{{noun5}}</strong> on yer head, stash a/an <strong>{{noun6}}</strong> in yer pants, and keep a/an <strong>{{noun7}}</strong> perched atop yer <strong>{{bodyPart2}}</strong>. Aye, now ye be a real pirate!</p>
+      </section>
     </main>
   <script type="text/javascript" src="bundle.js"></script></body>
 </html>

@@ -56,9 +56,7 @@
 	
 	var app = _angular2.default.module('kateGreeting', []);
 	
-	app.controller('main', function ($scope) {
-	  $scope.name = 'Kate';
-	});
+	app.controller('main', function () {});
 
 /***/ },
 /* 1 */
@@ -95,7 +93,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  background : #99cc00;\n}\n", "", {"version":3,"sources":["/./app/css/main.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;CACtB","file":"main.css","sourcesContent":["body {\n  background : #99cc00;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: 'source sans pro', helvetica, arial, sans-serif;\n  font-weight: 300;\n  color: white;\n}\n\nbody {\n  background: #111;\n}\n\nmain {\n  width: 60%;\n  margin: 10vh auto 0 auto;\n  /*background-color: rgba(0,0,0,0.3);*/\n}\n\n.madInput, .madOutput {\n  margin-top: 50px;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: 400;\n  margin-bottom: 10px;\n}\n\nstrong {\n  font-weight: 600;\n}\n\ninput {\n  width: 45%;\n  background-color: transparent;\n  border: transparent;\n  outline: none;\n  border-bottom: 1px solid #666;\n  color: white;\n  font-size: 16px;\n  padding: 5px;\n  text-align: center;\n  margin-top: 5px;\n}\n\ninput:nth-child(odd) {\n  margin-left: 8%;\n}\n\n::-webkit-input-placeholder {\n  color: #666;\n}\n\n:-moz-input-placeholder {\n  color: #666;\n}\n", "", {"version":3,"sources":["/./app/css/main.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,WAAW;EACX,uBAAuB;EACvB,6DAA6D;EAC7D,iBAAiB;EACjB,aAAa;CACd;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,WAAW;EACX,yBAAyB;EACzB,sCAAsC;CACvC;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,iBAAiB;EACjB,oBAAoB;CACrB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,WAAW;EACX,8BAA8B;EAC9B,oBAAoB;EACpB,cAAc;EACd,8BAA8B;EAC9B,aAAa;EACb,gBAAgB;EAChB,aAAa;EACb,mBAAmB;EACnB,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,YAAY;CACb;;AAED;EACE,YAAY;CACb","file":"main.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: 'source sans pro', helvetica, arial, sans-serif;\n  font-weight: 300;\n  color: white;\n}\n\nbody {\n  background: #111;\n}\n\nmain {\n  width: 60%;\n  margin: 10vh auto 0 auto;\n  /*background-color: rgba(0,0,0,0.3);*/\n}\n\n.madInput, .madOutput {\n  margin-top: 50px;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: 400;\n  margin-bottom: 10px;\n}\n\nstrong {\n  font-weight: 600;\n}\n\ninput {\n  width: 45%;\n  background-color: transparent;\n  border: transparent;\n  outline: none;\n  border-bottom: 1px solid #666;\n  color: white;\n  font-size: 16px;\n  padding: 5px;\n  text-align: center;\n  margin-top: 5px;\n}\n\ninput:nth-child(odd) {\n  margin-left: 8%;\n}\n\n::-webkit-input-placeholder {\n  color: #666;\n}\n\n:-moz-input-placeholder {\n  color: #666;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 

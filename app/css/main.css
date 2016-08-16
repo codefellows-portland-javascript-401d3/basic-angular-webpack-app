@@ -4,16 +4,16 @@
   box-sizing: border-box;
   font-family: 'source sans pro', helvetica, arial, sans-serif;
   font-weight: 300;
+  color: white;
 }
 
 body {
-  background : #99cc00;
+  background: #111;
 }
 
 main {
   width: 60%;
   margin: 10vh auto 0 auto;
-
 }
 
 .madInput, .madOutput {
@@ -34,8 +34,8 @@ input {
   background-color: transparent;
   border: transparent;
   outline: none;
-  border-bottom: 1px solid black;
-  color: #000;
+  border-bottom: 1px solid #666;
+  color: white;
   font-size: 16px;
   padding: 5px;
   text-align: center;
