@@ -2,9 +2,10 @@
   "name": "basic-angular-webpack-app",
   "version": "1.0.0",
   "description": "Get Angular",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
