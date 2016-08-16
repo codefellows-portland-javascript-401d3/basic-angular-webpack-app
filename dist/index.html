@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta chatset="UTF-8">
+    <title>First Webpack App</title>
+  </head>
+  <body ng-controller="main">
+    <div>Enter your name: <input ng-model="name"><button ng-click="toggle()">Go!</button></div>
+    <h2 ng-show="greeting">Hello, {{name}}!</h2>
+    <hr />
+    <div>The cow says: <input ng-model="phrase"></div>
+    <pre>{{cow(phrase)}}</pre>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>
