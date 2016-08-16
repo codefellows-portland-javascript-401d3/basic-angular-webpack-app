@@ -1,7 +1,7 @@
 {
   "name": "cf401-lab09-basic-angular-webpack-app",
   "version": "1.0.0",
-  "description": "labwork",
+  "description": "Code Fellows 401 Project",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/GeoffreyEmerson/cf401-lab09-basic-angular-webpack-app.git"
   },
-  "author": "Geoffrey Emerson <geoffrey.emerson.git@gmail.com> (http://geoffreyemerson.com)",
+  "author": "Geoffrey Emerson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GeoffreyEmerson/cf401-lab09-basic-angular-webpack-app/issues"
