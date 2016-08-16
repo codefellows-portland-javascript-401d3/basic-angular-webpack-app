@@ -1,0 +1,36 @@
+{
+  "name": "cf401-lab09-basic-angular-webpack-app",
+  "version": "1.0.0",
+  "description": "labwork",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoffreyEmerson/cf401-lab09-basic-angular-webpack-app.git"
+  },
+  "author": "Geoffrey Emerson <geoffrey.emerson.git@gmail.com> (http://geoffreyemerson.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeoffreyEmerson/cf401-lab09-basic-angular-webpack-app/issues"
+  },
+  "homepage": "https://github.com/GeoffreyEmerson/cf401-lab09-basic-angular-webpack-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.3.1",
+    "eslint-loader": "^1.5.0",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "cowsay-browser": "^1.1.8"
+  }
+}
